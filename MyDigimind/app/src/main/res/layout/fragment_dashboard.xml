@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logobrain"
+        android:contentDescription="@string/app_name" />
+
+    <!-- Pregunta -->
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/what_do_you_want_to_remember_to_do" />
+
+    <!-- Respuesta -->
+    <EditText
+        android:id="@+id/et_answer"
+        android:layout_width="450dp"
+        android:layout_height="48dp"
+        android:hint="@string/take_my_pill"
+        android:inputType="text" />
+
+    <!-- Segundo título -->
+    <TextView
+        android:id="@+id/tv_second_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/when_do_you_want_to_it" />
+
+    <!-- Días de la semana con checkboxes -->
+    <CheckBox
+        android:id="@+id/cb_monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday" />
+
+    <CheckBox
+        android:id="@+id/cb_tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday" />
+
+    <CheckBox
+        android:id="@+id/cb_wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday" />
+
+    <CheckBox
+        android:id="@+id/cb_thursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday" />
+
+    <CheckBox
+        android:id="@+id/cb_friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friday" />
+
+    <CheckBox
+        android:id="@+id/cb_saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday" />
+
+    <CheckBox
+        android:id="@+id/cb_sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday" />
+
+    <!-- Texto "At what time?" -->
+    <TextView
+        android:id="@+id/tv_time_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="At what time?" />
+
+    <!-- Botón para elegir hora -->
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Time" />
+
+</LinearLayout>

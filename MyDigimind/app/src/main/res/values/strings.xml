@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyDigimind</string>
+    <string name="title_home">My Board</string>
+    <string name="title_dashboard">New Reminder</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="friday">friday</string>
+    <string name="monday">monday</string>
+    <string name="when_do_you_want_to_it">when do you want to it</string>
+    <string name="take_my_pill">take my pill</string>
+    <string name="what_do_you_want_to_remember_to_do">what do you want to remember to do</string>
+</resources>
